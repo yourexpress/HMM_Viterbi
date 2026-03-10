@@ -285,52 +285,59 @@ def _slide_title_page(s, results) -> list:
         Paragraph(
             "<font color='#1A237E' size='32'><b>HMM Viterbi POS Tagger</b></font>",
             ParagraphStyle("tc", fontName="Helvetica-Bold", fontSize=32,
-                           textColor=C_DARK, alignment=TA_CENTER),
+                           leading=40, textColor=C_DARK, alignment=TA_CENTER),
         ),
         _spacer(0.4),
         Paragraph(
             "Hidden Markov Model + Viterbi Algorithm for Part-of-Speech Tagging",
             ParagraphStyle("tc2", fontName="Helvetica", fontSize=15,
-                           textColor=C_MID, alignment=TA_CENTER),
+                           leading=20, textColor=C_MID, alignment=TA_CENTER),
         ),
         _spacer(1.0),
-        # Key-stat row
+        # Key-stat row – explicit rowHeights prevents leading-inheritance overlap
         Table(
             [[
                 Paragraph(f"{acc:.1f}%",
-                          ParagraphStyle("kv", fontName="Helvetica-Bold",
-                                         fontSize=36, textColor=C_DARK,
+                          ParagraphStyle("kv1", fontName="Helvetica-Bold",
+                                         fontSize=36, leading=44,
+                                         textColor=C_DARK,
                                          alignment=TA_CENTER)),
                 Paragraph(f"{total}",
-                          ParagraphStyle("kv", fontName="Helvetica-Bold",
-                                         fontSize=36, textColor=C_DARK,
+                          ParagraphStyle("kv2", fontName="Helvetica-Bold",
+                                         fontSize=36, leading=44,
+                                         textColor=C_DARK,
                                          alignment=TA_CENTER)),
                 Paragraph("21",
-                          ParagraphStyle("kv", fontName="Helvetica-Bold",
-                                         fontSize=36, textColor=C_DARK,
+                          ParagraphStyle("kv3", fontName="Helvetica-Bold",
+                                         fontSize=36, leading=44,
+                                         textColor=C_DARK,
                                          alignment=TA_CENTER)),
             ],
              [
                 Paragraph("Test Accuracy",
-                          ParagraphStyle("kl", fontName="Helvetica",
-                                         fontSize=11, textColor=C_GREY,
+                          ParagraphStyle("kl1", fontName="Helvetica",
+                                         fontSize=11, leading=16,
+                                         textColor=C_GREY,
                                          alignment=TA_CENTER)),
                 Paragraph("Test Tokens",
-                          ParagraphStyle("kl", fontName="Helvetica",
-                                         fontSize=11, textColor=C_GREY,
+                          ParagraphStyle("kl2", fontName="Helvetica",
+                                         fontSize=11, leading=16,
+                                         textColor=C_GREY,
                                          alignment=TA_CENTER)),
                 Paragraph("POS Tags",
-                          ParagraphStyle("kl", fontName="Helvetica",
-                                         fontSize=11, textColor=C_GREY,
+                          ParagraphStyle("kl3", fontName="Helvetica",
+                                         fontSize=11, leading=16,
+                                         textColor=C_GREY,
                                          alignment=TA_CENTER)),
              ]],
             colWidths=[CONTENT_W / 3] * 3,
+            rowHeights=[52, 22],
         ),
         _spacer(1.2),
         Paragraph(
             f"Generated: {datetime.now().strftime('%B %d, %Y')}",
             ParagraphStyle("date", fontName="Helvetica", fontSize=9,
-                           textColor=C_GREY, alignment=TA_CENTER),
+                           leading=13, textColor=C_GREY, alignment=TA_CENTER),
         ),
     ]
     return story
@@ -387,15 +394,20 @@ def _slide_hmm_approach(s) -> list:
         _bullet(
             "<b>Markov assumption:</b> the current tag depends only on the "
             "previous tag, not the full history.", s),
-        _sub_bullet("P(t\u1d62 | t\u2081…t\u1d62\u208b\u2081) = P(t\u1d62 | t\u1d62\u208b\u2081)", s),
+        _sub_bullet(
+            "P(t<sub>i</sub> | t<sub>1</sub>...t<sub>i-1</sub>) = "
+            "P(t<sub>i</sub> | t<sub>i-1</sub>)", s),
         _bullet(
             "<b>Output independence:</b> the word depends only on its own tag.", s),
-        _sub_bullet("P(w\u1d62 | w\u2081…w\u2099, t\u2081…t\u2099) = P(w\u1d62 | t\u1d62)", s),
+        _sub_bullet(
+            "P(w<sub>i</sub> | w<sub>1</sub>...w<sub>n</sub>, "
+            "t<sub>1</sub>...t<sub>n</sub>) = P(w<sub>i</sub> | t<sub>i</sub>)", s),
         _spacer(0.3),
         _head("Joint probability of a sentence", s),
         Paragraph(
-            "P(w\u2081:\u2099, t\u2081:\u2099) = P(t\u2081|START)  \u00d7  "
-            "\u220f P(t\u1d62|t\u1d62\u208b\u2081)  \u00d7  \u220f P(w\u1d62|t\u1d62)",
+            "P(w<sub>1:n</sub>, t<sub>1:n</sub>) = P(t<sub>1</sub> | START)"
+            "  \u00d7  prod P(t<sub>i</sub> | t<sub>i-1</sub>)"
+            "  \u00d7  prod P(w<sub>i</sub> | t<sub>i</sub>)",
             s["formula"],
         ),
         _spacer(0.3),
@@ -414,14 +426,14 @@ def _slide_hmm_parameters(s) -> list:
     rows = [
         ["Parameter", "Symbol", "Formula (smoothed)"],
         ["Initial probability",
-         "π(t) = P(t | START)",
-         "( Count(START→t) + α ) / ( Count(START→*) + α·|T| )"],
+         "\u03c0(t) = P(t | START)",
+         "( Count(START->t) + \u03b1 ) / ( Count(START->*) + \u03b1\u00b7|T| )"],
         ["Transition probability",
-         "A(tᵢ, tⱼ) = P(tⱼ | tᵢ)",
-         "( Count(tᵢ→tⱼ) + α ) / ( Count(tᵢ→*) + α·|T| )"],
+         "A(t_i, t_j) = P(t_j | t_i)",
+         "( Count(t_i->t_j) + \u03b1 ) / ( Count(t_i->*) + \u03b1\u00b7|T| )"],
         ["Emission probability",
          "B(t, w) = P(w | t)",
-         "( Count(t,w) + α ) / ( Count(t) + α·(|V|+1) )"],
+         "( Count(t,w) + \u03b1 ) / ( Count(t) + \u03b1\u00b7(|V|+1) )"],
     ]
     col_w = [3.2 * cm, 5.0 * cm, CONTENT_W - 8.4 * cm]
     param_table = Table(rows, colWidths=col_w)
@@ -470,14 +482,16 @@ def _slide_viterbi(s) -> list:
         _spacer(0.25),
         _head("Recurrence (log-space to avoid underflow)", s),
         Paragraph(
-            "\u03b4\u209c(j)  =  max\u1d62 [ \u03b4\u209c\u208b\u2081(i) "
-            "+ log A(i,j) ]  +  log B(j, w\u209c)",
+            "\u03b4<sub>t</sub>(j)  =  max<sub>i</sub>"
+            " [ \u03b4<sub>t-1</sub>(i) + log A(i,j) ]"
+            "  +  log B(j, w<sub>t</sub>)",
             s["formula"],
         ),
         _spacer(0.25),
         _head("Three passes", s),
         _bullet(
-            "<b>Initialisation</b> (t = 0): δ₀(j) = log π(j) + log B(j, w₀)", s),
+            "<b>Initialisation</b> (t = 0): "
+            "\u03b4<sub>0</sub>(j) = log \u03c0(j) + log B(j, w<sub>0</sub>)", s),
         _bullet(
             "<b>Recursion</b> (t = 1…n–1): fill the Viterbi table and store "
             "backpointers", s),
@@ -514,7 +528,7 @@ def _slide_pipeline(s) -> list:
         ["Stage", "Module", "What it does"],
         ["1 – Train",
          "src/train.py\nsrc/hmm_model.py",
-         "Parse word/TAG corpus → count transitions & emissions → "
+         "Parse word/TAG corpus, count transitions & emissions, "
          "compute smoothed log-probabilities."],
         ["2 – Decode",
          "src/viterbi.py",
@@ -624,11 +638,13 @@ def _slide_accuracy(s, results) -> list:
         _spacer(0.5),
         Paragraph(f"<b>{acc:.2f}%</b>",
                   ParagraphStyle("big_acc", fontName="Helvetica-Bold",
-                                 fontSize=72, textColor=C_DARK,
+                                 fontSize=72, leading=88,
+                                 textColor=C_DARK,
                                  alignment=TA_CENTER)),
         Paragraph("token-level accuracy on the held-out test set",
                   ParagraphStyle("big_acc_sub", fontName="Helvetica",
-                                 fontSize=14, textColor=C_GREY,
+                                 fontSize=14, leading=18,
+                                 textColor=C_GREY,
                                  alignment=TA_CENTER)),
         _spacer(0.5),
         Table(
@@ -654,9 +670,10 @@ def _slide_accuracy(s, results) -> list:
         _spacer(0.35),
         Paragraph(
             "Trained from <b>scratch</b> using only counts and Laplace smoothing "
-            "— no neural networks, no pre-trained embeddings.",
+            "\u2014 no neural networks, no pre-trained embeddings.",
             ParagraphStyle("note", fontName="Helvetica-Oblique",
-                           fontSize=10, textColor=C_GREY,
+                           fontSize=10, leading=14,
+                           textColor=C_GREY,
                            alignment=TA_CENTER),
         ),
     ]
@@ -760,8 +777,8 @@ def _slide_discussion(s, results) -> list:
         _spacer(0.25),
         _head("Limitations & error sources", s),
         _bullet(
-            "Common confusions: NN ↔ NNP (singular vs. proper noun), "
-            "VBD ↔ VBN (past tense vs. past participle). "
+            "Common confusions: NN vs NNP (singular vs. proper noun), "
+            "VBD vs VBN (past tense vs. past participle). "
             "Both pairs share lexical forms.", s),
         _bullet(
             f"Tags {', '.join(sorted(zero_f1)) if zero_f1 else '–'} "
@@ -845,7 +862,7 @@ def generate_pdf_slides(model, results: dict, figures_dir: str,
         ("Analysis – Per-Tag F1",
          _slide_figure(
              os.path.join(figures_dir, "per_tag_f1.png"),
-             "Per-Tag F1 Score.  Bars are coloured red (low) → green (high).  "
+             "Per-Tag F1 Score.  Bars are coloured red (low) to green (high).  "
              "Dashed line marks overall token accuracy.",
          )),
         ("Analysis – Precision / Recall / F1",
@@ -865,7 +882,7 @@ def generate_pdf_slides(model, results: dict, figures_dir: str,
          _slide_figure(
              os.path.join(figures_dir, "transition_matrix.png"),
              "HMM Transition Probability Matrix.  "
-             "Cell (i,j) = smoothed P(tag\u2c7c | tag\u1d62).",
+             "Cell (i,j) = smoothed P(tag_j | tag_i).",
          )),
         ("Analysis – Top Emission Words",
          _slide_figure(
