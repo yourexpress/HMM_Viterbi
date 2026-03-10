@@ -1,0 +1,50 @@
+The/DT dog/NN ran/VBD fast/RB ./.
+She/PRP likes/VBZ swimming/VBG in/IN the/DT ocean/NN ./.
+The/DT scientist/NN published/VBD a/DT paper/NN ./.
+He/PRP reads/VBZ books/NNS every/DT night/NN ./.
+The/DT children/NNS played/VBD outside/RB ./.
+She/PRP drives/VBZ to/TO work/VB daily/RB ./.
+The/DT teacher/NN gave/VBD homework/NN ./.
+He/PRP jumped/VBD over/IN the/DT puddle/NN ./.
+The/DT flowers/NNS smelled/VBD wonderful/JJ ./.
+She/PRP won/VBD the/DT award/NN ./.
+The/DT city/NN grew/VBD rapidly/RB ./.
+He/PRP cooked/VBD a/DT delicious/JJ meal/NN ./.
+The/DT students/NNS passed/VBD the/DT exam/NN ./.
+She/PRP bought/VBD fresh/JJ fruit/NN ./.
+The/DT pilot/NN flew/VBD north/RB ./.
+He/PRP solved/VBD the/DT problem/NN ./.
+The/DT artist/NN drew/VBD a/DT picture/NN ./.
+She/PRP traveled/VBD to/TO Rome/NNP ./.
+The/DT cat/NN climbed/VBD the/DT tree/NN ./.
+He/PRP wrote/VBD a/DT report/NN ./.
+The/DT manager/NN hired/VBD new/JJ staff/NN ./.
+She/PRP cleaned/VBD her/PRP$ room/NN ./.
+The/DT engineer/NN fixed/VBD the/DT machine/NN ./.
+He/PRP visited/VBD many/JJ museums/NNS ./.
+The/DT bird/NN sang/VBD in/IN the/DT morning/NN ./.
+She/PRP prepared/VBD a/DT big/JJ dinner/NN ./.
+The/DT doctor/NN treated/VBD the/DT patient/NN ./.
+He/PRP built/VBD a/DT new/JJ house/NN ./.
+The/DT lion/NN roared/VBD loudly/RB ./.
+She/PRP applied/VBD for/IN a/DT scholarship/NN ./.
+The/DT team/NN practiced/VBD every/DT day/NN ./.
+He/PRP earned/VBD a/DT high/JJ grade/NN ./.
+The/DT rain/NN fell/VBD heavily/RB ./.
+She/PRP taught/VBD young/JJ children/NNS ./.
+The/DT company/NN launched/VBD a/DT product/NN ./.
+He/PRP traveled/VBD by/IN train/NN ./.
+The/DT boat/NN sailed/VBD across/IN the/DT sea/NN ./.
+She/PRP danced/VBD at/IN the/DT party/NN ./.
+The/DT professor/NN graded/VBD the/DT essays/NNS ./.
+He/PRP grew/VBD vegetables/NNS in/IN his/PRP$ garden/NN ./.
+The/DT snake/NN moved/VBD quietly/RB ./.
+She/PRP attended/VBD the/DT conference/NN ./.
+The/DT horse/NN jumped/VBD over/IN the/DT fence/NN ./.
+He/PRP designed/VBD a/DT new/JJ app/NN ./.
+The/DT volcano/NN erupted/VBD last/JJ year/NN ./.
+She/PRP ran/VBD a/DT marathon/NN ./.
+The/DT river/NN flooded/VBD the/DT village/NN ./.
+He/PRP repaired/VBD the/DT roof/NN ./.
+The/DT researcher/NN found/VBD important/JJ data/NNS ./.
+She/PRP opened/VBD a/DT bakery/NN ./.

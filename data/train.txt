@@ -1,0 +1,350 @@
+The/DT cat/NN sat/VBD on/IN the/DT mat/NN ./.
+A/DT dog/NN ran/VBD across/IN the/DT yard/NN ./.
+She/PRP loves/VBZ reading/VBG books/NNS ./.
+He/PRP quickly/RB ate/VBD his/PRP$ lunch/NN ./.
+The/DT big/JJ red/JJ ball/NN rolled/VBD down/RP the/DT hill/NN ./.
+They/PRP are/VBP playing/VBG football/NN outside/RB ./.
+John/NNP Smith/NNP works/VBZ at/IN the/DT bank/NN ./.
+The/DT weather/NN is/VBZ very/RB hot/JJ today/NN ./.
+She/PRP quickly/RB finished/VBD her/PRP$ homework/NN ./.
+The/DT old/JJ man/NN walked/VBD slowly/RB down/IN the/DT street/NN ./.
+I/PRP have/VBP been/VBN waiting/VBG for/IN a/DT long/JJ time/NN ./.
+The/DT children/NNS are/VBP playing/VBG in/IN the/DT park/NN ./.
+He/PRP bought/VBD a/DT new/JJ car/NN yesterday/RB ./.
+The/DT teacher/NN explained/VBD the/DT concept/NN clearly/RB ./.
+Birds/NNS fly/VBP south/RB in/IN the/DT winter/NN ./.
+The/DT movie/NN was/VBD really/RB good/JJ ./.
+She/PRP opened/VBD the/DT door/NN and/CC walked/VBD in/RP ./.
+The/DT tall/JJ building/NN collapsed/VBD suddenly/RB ./.
+We/PRP went/VBD to/TO the/DT store/NN ./.
+John/NNP loves/VBZ pizza/NN ./.
+The/DT sun/NN rises/VBZ in/IN the/DT east/NN ./.
+She/PRP sings/VBZ beautifully/RB ./.
+The/DT dog/NN barked/VBD at/IN the/DT stranger/NN ./.
+He/PRP is/VBZ a/DT good/JJ student/NN ./.
+The/DT book/NN was/VBD interesting/JJ ./.
+They/PRP went/VBD to/TO Paris/NNP last/JJ summer/NN ./.
+The/DT scientist/NN discovered/VBD a/DT new/JJ element/NN ./.
+She/PRP is/VBZ studying/VBG medicine/NN at/IN the/DT university/NN ./.
+The/DT company/NN announced/VBD its/PRP$ new/JJ product/NN ./.
+He/PRP ran/VBD very/RB fast/RB in/IN the/DT race/NN ./.
+The/DT little/JJ girl/NN smiled/VBD at/IN her/PRP$ mother/NN ./.
+John/NNP played/VBD the/DT piano/NN beautifully/RB ./.
+The/DT flowers/NNS bloomed/VBD in/IN the/DT spring/NN ./.
+She/PRP wrote/VBD a/DT long/JJ letter/NN to/TO her/PRP$ friend/NN ./.
+The/DT train/NN arrived/VBD on/IN time/NN ./.
+He/PRP watched/VBD the/DT game/NN on/IN television/NN ./.
+The/DT students/NNS studied/VBD hard/RB for/IN the/DT exam/NN ./.
+She/PRP cooked/VBD a/DT delicious/JJ meal/NN ./.
+The/DT river/NN flows/VBZ through/IN the/DT valley/NN ./.
+He/PRP fixed/VBD the/DT broken/JJ window/NN ./.
+The/DT baby/NN cried/VBD all/DT night/NN ./.
+She/PRP danced/VBD gracefully/RB on/IN the/DT stage/NN ./.
+The/DT government/NN passed/VBD a/DT new/JJ law/NN ./.
+He/PRP learned/VBD to/TO speak/VB French/NNP fluently/RB ./.
+The/DT astronaut/NN floated/VBD in/IN space/NN ./.
+She/PRP painted/VBD a/DT beautiful/JJ landscape/NN ./.
+The/DT fire/NN spread/VBD quickly/RB through/IN the/DT forest/NN ./.
+He/PRP solved/VBD the/DT difficult/JJ problem/NN ./.
+The/DT team/NN won/VBD the/DT championship/NN ./.
+She/PRP read/VBD an/DT interesting/JJ article/NN about/IN science/NN ./.
+The/DT pilot/NN landed/VBD the/DT plane/NN safely/RB ./.
+He/PRP climbed/VBD the/DT tall/JJ mountain/NN ./.
+The/DT doctor/NN examined/VBD the/DT patient/NN carefully/RB ./.
+She/PRP designed/VBD a/DT new/JJ website/NN ./.
+The/DT engineers/NNS built/VBD a/DT bridge/NN ./.
+He/PRP taught/VBD mathematics/NN at/IN the/DT school/NN ./.
+The/DT cat/NN jumped/VBD over/IN the/DT fence/NN ./.
+She/PRP bought/VBD fresh/JJ vegetables/NNS from/IN the/DT market/NN ./.
+The/DT children/NNS laughed/VBD at/IN the/DT funny/JJ clown/NN ./.
+He/PRP drove/VBD carefully/RB on/IN the/DT wet/JJ road/NN ./.
+The/DT museum/NN opened/VBD a/DT new/JJ exhibition/NN ./.
+She/PRP applied/VBD for/IN a/DT job/NN at/IN the/DT company/NN ./.
+The/DT dog/NN chased/VBD the/DT squirrel/NN up/RP the/DT tree/NN ./.
+He/PRP read/VBD the/DT newspaper/NN every/DT morning/NN ./.
+The/DT lake/NN reflected/VBD the/DT beautiful/JJ sunset/NN ./.
+She/PRP organized/VBD a/DT surprise/JJ party/NN for/IN her/PRP$ sister/NN ./.
+The/DT professor/NN gave/VBD an/DT interesting/JJ lecture/NN ./.
+He/PRP fixed/VBD the/DT computer/NN in/IN an/DT hour/NN ./.
+The/DT choir/NN sang/VBD at/IN the/DT concert/NN ./.
+She/PRP graduated/VBD from/IN college/NN last/JJ year/NN ./.
+The/DT farmer/NN planted/VBD corn/NN in/IN the/DT field/NN ./.
+He/PRP published/VBD his/PRP$ research/NN in/IN a/DT journal/NN ./.
+The/DT library/NN has/VBZ many/JJ books/NNS ./.
+She/PRP baked/VBD chocolate/JJ cookies/NNS for/IN the/DT party/NN ./.
+The/DT wind/NN blew/VBD the/DT leaves/NNS off/RP the/DT trees/NNS ./.
+He/PRP played/VBD chess/NN with/IN his/PRP$ grandfather/NN ./.
+The/DT police/NNS caught/VBD the/DT thief/NN ./.
+She/PRP visited/VBD her/PRP$ grandmother/NN on/IN Sunday/NNP ./.
+The/DT volcano/NN erupted/VBD violently/RB ./.
+He/PRP wrote/VBD a/DT poem/NN about/IN love/NN ./.
+The/DT birds/NNS sang/VBD early/RB in/IN the/DT morning/NN ./.
+She/PRP won/VBD the/DT swimming/VBG competition/NN ./.
+The/DT president/NN signed/VBD the/DT bill/NN into/IN law/NN ./.
+He/PRP ate/VBD breakfast/NN before/IN going/VBG to/TO work/VB ./.
+The/DT river/NN flooded/VBD the/DT surrounding/JJ area/NN ./.
+She/PRP drew/VBD a/DT beautiful/JJ portrait/NN ./.
+The/DT scientist/NN conducted/VBD an/DT experiment/NN ./.
+He/PRP bought/VBD a/DT house/NN in/IN the/DT suburbs/NNS ./.
+The/DT newspaper/NN reported/VBD the/DT breaking/JJ news/NN ./.
+She/PRP called/VBD her/PRP$ parents/NNS every/DT week/NN ./.
+The/DT student/NN asked/VBD a/DT clever/JJ question/NN ./.
+He/PRP visited/VBD three/CD countries/NNS last/JJ year/NN ./.
+The/DT cat/NN slept/VBD on/IN the/DT warm/JJ blanket/NN ./.
+She/PRP won/VBD a/DT gold/JJ medal/NN at/IN the/DT Olympics/NNP ./.
+The/DT engineer/NN designed/VBD a/DT new/JJ machine/NN ./.
+He/PRP listened/VBD to/TO music/NN while/IN studying/VBG ./.
+The/DT children/NNS ate/VBD cake/NN at/IN the/DT birthday/NN party/NN ./.
+She/PRP cleaned/VBD the/DT house/NN thoroughly/RB ./.
+The/DT athlete/NN trained/VBD hard/RB every/DT day/NN ./.
+He/PRP borrowed/VBD a/DT book/NN from/IN the/DT library/NN ./.
+The/DT sun/NN shone/VBD brightly/RB ./.
+She/PRP took/VBD a/DT photograph/NN of/IN the/DT mountain/NN ./.
+The/DT company/NN hired/VBD new/JJ employees/NNS ./.
+He/PRP planted/VBD flowers/NNS in/IN his/PRP$ garden/NN ./.
+The/DT judge/NN made/VBD a/DT fair/JJ decision/NN ./.
+She/PRP traveled/VBD to/TO Japan/NNP for/IN business/NN ./.
+The/DT baby/NN slept/VBD peacefully/RB in/IN the/DT crib/NN ./.
+He/PRP solved/VBD every/DT math/NN problem/NN correctly/RB ./.
+The/DT storm/NN damaged/VBD many/JJ houses/NNS ./.
+She/PRP prepared/VBD a/DT wonderful/JJ presentation/NN ./.
+The/DT butterfly/NN landed/VBD on/IN the/DT flower/NN ./.
+He/PRP received/VBD a/DT letter/NN from/IN his/PRP$ friend/NN ./.
+The/DT museum/NN displayed/VBD ancient/JJ artifacts/NNS ./.
+She/PRP played/VBD the/DT violin/NN at/IN the/DT concert/NN ./.
+The/DT boy/NN kicked/VBD the/DT ball/NN into/IN the/DT goal/NN ./.
+He/PRP swam/VBD across/IN the/DT lake/NN ./.
+The/DT teacher/NN graded/VBD the/DT papers/NNS quickly/RB ./.
+She/PRP gave/VBD a/DT speech/NN at/IN the/DT conference/NN ./.
+The/DT snow/NN covered/VBD the/DT ground/NN overnight/RB ./.
+He/PRP photographed/VBD the/DT wildlife/NN in/IN the/DT jungle/NN ./.
+The/DT train/NN passed/VBD through/IN many/JJ tunnels/NNS ./.
+She/PRP won/VBD the/DT debate/NN competition/NN ./.
+The/DT firefighter/NN saved/VBD the/DT trapped/JJ people/NNS ./.
+He/PRP built/VBD a/DT model/NN airplane/NN ./.
+The/DT chef/NN prepared/VBD an/DT elaborate/JJ dinner/NN ./.
+She/PRP studied/VBD abroad/RB for/IN two/CD years/NNS ./.
+The/DT company/NN expanded/VBD to/TO new/JJ markets/NNS ./.
+He/PRP photographed/VBD the/DT beautiful/JJ landscape/NN ./.
+The/DT children/NNS collected/VBD shells/NNS on/IN the/DT beach/NN ./.
+She/PRP completed/VBD the/DT marathon/NN in/IN record/JJ time/NN ./.
+The/DT architect/NN designed/VBD an/DT impressive/JJ building/NN ./.
+He/PRP donated/VBD money/NN to/TO the/DT charity/NN ./.
+The/DT horse/NN galloped/VBD across/IN the/DT field/NN ./.
+She/PRP wrote/VBD articles/NNS for/IN the/DT magazine/NN ./.
+The/DT earthquake/NN damaged/VBD the/DT city/NN ./.
+He/PRP repaired/VBD the/DT old/JJ clock/NN ./.
+The/DT singer/NN performed/VBD on/IN stage/NN ./.
+She/PRP adopted/VBD a/DT puppy/NN from/IN the/DT shelter/NN ./.
+The/DT programmer/NN wrote/VBD efficient/JJ code/NN ./.
+He/PRP delivered/VBD the/DT package/NN on/IN time/NN ./.
+The/DT artist/NN painted/VBD a/DT mural/NN on/IN the/DT wall/NN ./.
+She/PRP organized/VBD a/DT fundraiser/NN for/IN the/DT school/NN ./.
+The/DT sailor/NN navigated/VBD through/IN the/DT storm/NN ./.
+He/PRP submitted/VBD his/PRP$ thesis/NN on/IN time/NN ./.
+The/DT flowers/NNS grew/VBD quickly/RB in/IN the/DT warm/JJ weather/NN ./.
+She/PRP installed/VBD new/JJ software/NN on/IN her/PRP$ computer/NN ./.
+The/DT boy/NN caught/VBD a/DT fish/NN in/IN the/DT pond/NN ./.
+He/PRP completed/VBD the/DT project/NN ahead/RB of/IN schedule/NN ./.
+The/DT nurse/NN helped/VBD the/DT injured/JJ patients/NNS ./.
+She/PRP climbed/VBD to/TO the/DT top/NN of/IN the/DT mountain/NN ./.
+The/DT river/NN overflowed/VBD its/PRP$ banks/NNS ./.
+He/PRP fixed/VBD the/DT leak/NN in/IN the/DT pipe/NN ./.
+The/DT astronomer/NN discovered/VBD a/DT new/JJ comet/NN ./.
+She/PRP learned/VBD to/TO play/VB the/DT guitar/NN ./.
+The/DT wolf/NN howled/VBD at/IN the/DT moon/NN ./.
+He/PRP accepted/VBD the/DT job/NN offer/NN ./.
+The/DT players/NNS celebrated/VBD their/PRP$ victory/NN ./.
+She/PRP decorated/VBD the/DT room/NN with/IN flowers/NNS ./.
+The/DT investor/NN bought/VBD many/JJ stocks/NNS ./.
+He/PRP graduated/VBD with/IN honors/NNS ./.
+The/DT rain/NN washed/VBD away/RP the/DT dirt/NN ./.
+She/PRP discovered/VBD a/DT new/JJ recipe/NN ./.
+The/DT bird/NN flew/VBD over/IN the/DT lake/NN ./.
+He/PRP volunteered/VBD at/IN the/DT local/JJ hospital/NN ./.
+The/DT chef/NN added/VBD fresh/JJ herbs/NNS to/TO the/DT soup/NN ./.
+She/PRP finished/VBD the/DT book/NN in/IN one/CD day/NN ./.
+The/DT police/NNS investigated/VBD the/DT crime/NN scene/NN ./.
+He/PRP trained/VBD his/PRP$ dog/NN to/TO fetch/VB ./.
+The/DT lawyer/NN presented/VBD her/PRP$ case/NN effectively/RB ./.
+She/PRP cooked/VBD dinner/NN for/IN her/PRP$ family/NN ./.
+The/DT submarine/NN dove/VBD deep/JJ into/IN the/DT ocean/NN ./.
+He/PRP memorized/VBD all/DT the/DT lines/NNS in/IN the/DT play/NN ./.
+The/DT crowd/NN cheered/VBD for/IN the/DT team/NN ./.
+She/PRP mastered/VBD the/DT art/NN of/IN painting/NN ./.
+The/DT surgeon/NN performed/VBD the/DT operation/NN successfully/RB ./.
+He/PRP translated/VBD the/DT document/NN into/IN English/NNP ./.
+The/DT whale/NN surfaced/VBD near/IN the/DT boat/NN ./.
+She/PRP climbed/VBD over/IN the/DT rocks/NNS ./.
+The/DT student/NN passed/VBD the/DT difficult/JJ test/NN ./.
+He/PRP watched/VBD the/DT sunset/NN from/IN the/DT hilltop/NN ./.
+The/DT cat/NN scratched/VBD the/DT furniture/NN ./.
+She/PRP enjoyed/VBD the/DT concert/NN very/RB much/RB ./.
+The/DT doctor/NN prescribed/VBD medicine/NN for/IN the/DT patient/NN ./.
+He/PRP proposed/VBD to/TO his/PRP$ girlfriend/NN ./.
+The/DT river/NN provided/VBD water/NN for/IN the/DT village/NN ./.
+She/PRP earned/VBD a/DT scholarship/NN to/TO study/VB abroad/RB ./.
+The/DT mouse/NN escaped/VBD from/IN the/DT trap/NN ./.
+He/PRP collected/VBD stamps/NNS as/IN a/DT hobby/NN ./.
+The/DT principal/NN addressed/VBD all/DT the/DT students/NNS ./.
+She/PRP hired/VBD an/DT excellent/JJ assistant/NN ./.
+The/DT fog/NN covered/VBD the/DT entire/JJ city/NN ./.
+He/PRP developed/VBD a/DT new/JJ application/NN ./.
+The/DT workers/NNS completed/VBD the/DT construction/NN project/NN ./.
+She/PRP hosted/VBD a/DT dinner/NN party/NN for/IN her/PRP$ colleagues/NNS ./.
+The/DT rocket/NN launched/VBD into/IN orbit/NN ./.
+He/PRP studied/VBD astronomy/NN at/IN university/NN ./.
+The/DT snake/NN slithered/VBD through/IN the/DT grass/NN ./.
+She/PRP renewed/VBD her/PRP$ passport/NN ./.
+The/DT dam/NN controlled/VBD the/DT water/NN flow/NN ./.
+He/PRP celebrated/VBD his/PRP$ birthday/NN with/IN friends/NNS ./.
+The/DT archaeologist/NN found/VBD ancient/JJ pottery/NN ./.
+She/PRP won/VBD the/DT chess/NN tournament/NN ./.
+The/DT machine/NN produced/VBD high/JJ quality/NN parts/NNS ./.
+He/PRP scored/VBD the/DT winning/JJ goal/NN ./.
+The/DT geologist/NN studied/VBD rock/NN formations/NNS ./.
+She/PRP knitted/VBD a/DT warm/JJ sweater/NN ./.
+The/DT computer/NN processed/VBD the/DT data/NNS quickly/RB ./.
+He/PRP navigated/VBD through/IN the/DT dense/JJ forest/NN ./.
+The/DT tornado/NN destroyed/VBD several/JJ buildings/NNS ./.
+She/PRP painted/VBD the/DT walls/NNS white/JJ ./.
+The/DT journalist/NN interviewed/VBD the/DT politician/NN ./.
+He/PRP repaired/VBD his/PRP$ bicycle/NN ./.
+The/DT orchestra/NN played/VBD a/DT symphony/NN ./.
+She/PRP sewed/VBD a/DT new/JJ dress/NN ./.
+The/DT lion/NN hunted/VBD in/IN the/DT savanna/NN ./.
+He/PRP attended/VBD the/DT important/JJ meeting/NN ./.
+The/DT butterfly/NN emerged/VBD from/IN its/PRP$ cocoon/NN ./.
+She/PRP completed/VBD her/PRP$ internship/NN successfully/RB ./.
+The/DT earthquake/NN measured/VBD seven/CD on/IN the/DT scale/NN ./.
+He/PRP renovated/VBD the/DT old/JJ house/NN ./.
+The/DT dolphin/NN jumped/VBD out/RP of/IN the/DT water/NN ./.
+She/PRP maintained/VBD a/DT healthy/JJ lifestyle/NN ./.
+The/DT painter/NN created/VBD a/DT masterpiece/NN ./.
+He/PRP passed/VBD his/PRP$ driving/VBG test/NN ./.
+The/DT volcano/NN released/VBD ash/NN and/CC smoke/NN ./.
+She/PRP joined/VBD a/DT yoga/NN class/NN ./.
+The/DT carpenter/NN built/VBD a/DT wooden/JJ table/NN ./.
+He/PRP attended/VBD the/DT science/NN fair/NN ./.
+The/DT historian/NN wrote/VBD a/DT detailed/JJ biography/NN ./.
+She/PRP volunteered/VBD at/IN the/DT animal/NN shelter/NN ./.
+The/DT fisherman/NN cast/VBD his/PRP$ net/NN into/IN the/DT sea/NN ./.
+He/PRP explored/VBD the/DT abandoned/JJ factory/NN ./.
+The/DT professor/NN published/VBD groundbreaking/JJ research/NN ./.
+She/PRP learned/VBD to/TO drive/VB a/DT car/NN ./.
+The/DT kite/NN flew/VBD high/RB in/IN the/DT sky/NN ./.
+He/PRP read/VBD every/DT book/NN in/IN the/DT series/NN ./.
+The/DT bank/NN approved/VBD the/DT loan/NN ./.
+She/PRP opened/VBD a/DT small/JJ business/NN ./.
+The/DT diver/NN explored/VBD the/DT coral/JJ reef/NN ./.
+He/PRP assembled/VBD the/DT furniture/NN himself/PRP ./.
+The/DT deer/NN grazed/VBD in/IN the/DT meadow/NN ./.
+She/PRP knitted/VBD colorful/JJ scarves/NNS ./.
+The/DT investigator/NN solved/VBD the/DT mystery/NN ./.
+He/PRP watered/VBD the/DT plants/NNS daily/RB ./.
+The/DT athlete/NN broke/VBD the/DT world/NN record/NN ./.
+She/PRP booked/VBD a/DT hotel/NN room/NN online/RB ./.
+The/DT meteor/NN crashed/VBD into/IN the/DT ocean/NN ./.
+He/PRP printed/VBD the/DT documents/NNS ./.
+The/DT judge/NN sentenced/VBD the/DT criminal/NN ./.
+She/PRP enrolled/VBD in/IN a/DT cooking/VBG class/NN ./.
+The/DT pilot/NN flew/VBD the/DT plane/NN across/IN the/DT ocean/NN ./.
+He/PRP composed/VBD a/DT beautiful/JJ song/NN ./.
+The/DT spider/NN spun/VBD an/DT intricate/JJ web/NN ./.
+She/PRP submitted/VBD her/PRP$ application/NN on/IN time/NN ./.
+The/DT scientist/NN analyzed/VBD the/DT results/NNS carefully/RB ./.
+He/PRP drew/VBD a/DT map/NN of/IN the/DT area/NN ./.
+The/DT nurse/NN administered/VBD the/DT medication/NN ./.
+She/PRP solved/VBD the/DT puzzle/NN quickly/RB ./.
+The/DT coach/NN trained/VBD the/DT team/NN effectively/RB ./.
+He/PRP caught/VBD the/DT ball/NN with/IN one/CD hand/NN ./.
+The/DT mechanic/NN repaired/VBD the/DT engine/NN ./.
+She/PRP organized/VBD all/DT the/DT files/NNS ./.
+The/DT firefighter/NN extinguished/VBD the/DT fire/NN ./.
+He/PRP climbed/VBD the/DT ladder/NN carefully/RB ./.
+The/DT chemist/NN synthesized/VBD new/JJ compounds/NNS ./.
+She/PRP folded/VBD the/DT clothes/NNS neatly/RB ./.
+The/DT journalist/NN published/VBD an/DT article/NN ./.
+He/PRP fixed/VBD the/DT flat/JJ tire/NN ./.
+The/DT chef/NN grilled/VBD fresh/JJ fish/NN ./.
+She/PRP attended/VBD the/DT art/NN exhibition/NN ./.
+The/DT surgeon/NN successfully/RB removed/VBD the/DT tumor/NN ./.
+He/PRP downloaded/VBD the/DT software/NN update/NN ./.
+The/DT students/NNS completed/VBD their/PRP$ assignments/NNS ./.
+She/PRP took/VBD notes/NNS during/IN the/DT lecture/NN ./.
+The/DT captain/NN steered/VBD the/DT ship/NN safely/RB ./.
+He/PRP saved/VBD money/NN for/IN a/DT vacation/NN ./.
+The/DT scientist/NN presented/VBD her/PRP$ findings/NNS ./.
+She/PRP bought/VBD a/DT birthday/NN cake/NN ./.
+The/DT librarian/NN organized/VBD the/DT books/NNS ./.
+He/PRP solved/VBD the/DT equation/NN ./.
+The/DT reporter/NN covered/VBD the/DT story/NN ./.
+She/PRP donated/VBD clothes/NNS to/TO the/DT charity/NN ./.
+The/DT grandfather/NN told/VBD stories/NNS to/TO his/PRP$ grandchildren/NNS ./.
+He/PRP renewed/VBD his/PRP$ subscription/NN ./.
+The/DT athletes/NNS trained/VBD daily/RB for/IN the/DT competition/NN ./.
+She/PRP grew/VBD tomatoes/NNS in/IN her/PRP$ garden/NN ./.
+The/DT president/NN delivered/VBD a/DT speech/NN ./.
+He/PRP purchased/VBD a/DT new/JJ laptop/NN ./.
+The/DT dancers/NNS performed/VBD at/IN the/DT festival/NN ./.
+She/PRP submitted/VBD her/PRP$ report/NN early/RB ./.
+The/DT bird/NN built/VBD a/DT nest/NN in/IN the/DT tree/NN ./.
+He/PRP taught/VBD the/DT children/NNS to/TO swim/VB ./.
+The/DT farmer/NN harvested/VBD the/DT crops/NNS ./.
+She/PRP described/VBD the/DT problem/NN in/IN detail/NN ./.
+The/DT librarian/NN recommended/VBD a/DT good/JJ book/NN ./.
+He/PRP organized/VBD his/PRP$ schedule/NN efficiently/RB ./.
+The/DT dog/NN protected/VBD its/PRP$ owner/NN loyally/RB ./.
+She/PRP painted/VBD the/DT fence/NN white/JJ ./.
+The/DT professor/NN explained/VBD the/DT theory/NN clearly/RB ./.
+He/PRP completed/VBD the/DT assignment/NN before/IN the/DT deadline/NN ./.
+The/DT soldiers/NNS defended/VBD the/DT territory/NN bravely/RB ./.
+She/PRP interviewed/VBD several/JJ candidates/NNS for/IN the/DT position/NN ./.
+The/DT explorer/NN discovered/VBD a/DT hidden/JJ cave/NN ./.
+He/PRP fixed/VBD the/DT electrical/JJ problem/NN ./.
+The/DT bakery/NN sold/VBD fresh/JJ bread/NN every/DT morning/NN ./.
+She/PRP mastered/VBD several/JJ languages/NNS ./.
+The/DT rocket/NN reached/VBD its/PRP$ target/NN successfully/RB ./.
+He/PRP analyzed/VBD the/DT market/NN trends/NNS ./.
+The/DT photographer/NN captured/VBD a/DT stunning/JJ image/NN ./.
+She/PRP assembled/VBD the/DT team/NN quickly/RB ./.
+The/DT inventor/NN created/VBD a/DT useful/JJ device/NN ./.
+He/PRP navigated/VBD the/DT complex/JJ route/NN ./.
+The/DT whale/NN migrated/VBD to/TO warmer/JJR waters/NNS ./.
+She/PRP recorded/VBD the/DT interview/NN ./.
+The/DT pilot/NN landed/VBD the/DT helicopter/NN safely/RB ./.
+He/PRP prepared/VBD the/DT presentation/NN overnight/RB ./.
+The/DT factory/NN manufactured/VBD thousands/NNS of/IN products/NNS ./.
+She/PRP scheduled/VBD a/DT meeting/NN ./.
+The/DT marathon/NN runner/NN crossed/VBD the/DT finish/NN line/NN ./.
+He/PRP tested/VBD the/DT new/JJ software/NN ./.
+The/DT eagle/NN soared/VBD high/RB above/IN the/DT clouds/NNS ./.
+She/PRP revised/VBD her/PRP$ essay/NN several/JJ times/NNS ./.
+The/DT plumber/NN fixed/VBD the/DT broken/JJ pipe/NN ./.
+He/PRP submitted/VBD a/DT proposal/NN to/TO the/DT committee/NN ./.
+The/DT researcher/NN collected/VBD data/NNS from/IN participants/NNS ./.
+She/PRP updated/VBD the/DT website/NN regularly/RB ./.
+The/DT whale/NN breached/VBD near/IN the/DT research/NN vessel/NN ./.
+He/PRP decorated/VBD his/PRP$ office/NN with/IN plants/NNS ./.
+The/DT archaeologist/NN excavated/VBD the/DT ancient/JJ site/NN ./.
+She/PRP won/VBD the/DT national/JJ competition/NN ./.
+The/DT manager/NN reviewed/VBD the/DT quarterly/JJ report/NN ./.
+He/PRP adopted/VBD a/DT healthy/JJ diet/NN ./.
+The/DT turtle/NN crawled/VBD slowly/RB across/IN the/DT sand/NN ./.
+She/PRP organized/VBD the/DT charity/NN event/NN successfully/RB ./.
+The/DT teacher/NN marked/VBD the/DT attendance/NN ./.
+He/PRP returned/VBD the/DT borrowed/JJ items/NNS on/IN time/NN ./.
+The/DT scientist/NN tested/VBD the/DT new/JJ hypothesis/NN ./.
+She/PRP demonstrated/VBD the/DT technique/NN clearly/RB ./.
+The/DT senator/NN proposed/VBD a/DT new/JJ bill/NN ./.
+He/PRP constructed/VBD a/DT model/NN of/IN the/DT molecule/NN ./.
+The/DT artist/NN sculpted/VBD a/DT lifelike/JJ figure/NN ./.
+She/PRP led/VBD the/DT team/NN to/TO victory/NN ./.
+The/DT penguin/NN waddled/VBD across/IN the/DT ice/NN ./.
+He/PRP remembered/VBD all/DT the/DT important/JJ dates/NNS ./.
+The/DT architect/NN presented/VBD innovative/JJ designs/NNS ./.
+She/PRP negotiated/VBD a/DT better/JJR deal/NN ./.
+The/DT conductor/NN directed/VBD the/DT orchestra/NN ./.
+He/PRP mapped/VBD the/DT entire/JJ coastline/NN ./.
+The/DT volcano/NN spewed/VBD lava/NN for/IN weeks/NNS ./.
+She/PRP received/VBD the/DT award/NN with/IN great/JJ honor/NN ./.
