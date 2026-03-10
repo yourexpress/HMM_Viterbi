@@ -5,7 +5,7 @@ Usage
 -----
     python main.py [--train TRAIN_FILE] [--test TEST_FILE]
                    [--figures FIGURES_DIR] [--report REPORT_FILE]
-                   [--smoothing SMOOTHING]
+                   [--slides SLIDES_FILE] [--smoothing SMOOTHING]
 
 Defaults
 --------
@@ -13,6 +13,7 @@ Defaults
     --test    data/test.txt
     --figures figures/
     --report  report/report.pdf
+    --slides  report/slides.pdf
     --smoothing 1.0
 """
 
@@ -51,6 +52,11 @@ def parse_args():
         default=1.0,
         help="Laplace smoothing constant (default: 1.0)",
     )
+    parser.add_argument(
+        "--slides",
+        default=os.path.join("report", "slides.pdf"),
+        help="Output path for the PDF slide deck (default: report/slides.pdf)",
+    )
     return parser.parse_args()
 
 
@@ -81,7 +87,14 @@ def main():
     from report.generate_report import generate_pdf_report
     generate_pdf_report(model, results, args.figures, args.report)
 
+    # ------------------------------------------------------------------
+    # Step 5: Generate the PDF slide deck
+    # ------------------------------------------------------------------
+    from report.generate_slides import generate_pdf_slides
+    generate_pdf_slides(model, results, args.figures, args.slides)
+
     print(f"\nDone!  Report saved to: {args.report}")
+    print(f"        Slides saved to: {args.slides}")
 
 
 if __name__ == "__main__":
