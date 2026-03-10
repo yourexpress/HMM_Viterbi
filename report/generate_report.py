@@ -15,6 +15,7 @@ import os
 import math
 from datetime import datetime
 
+from PIL import Image as PILImage
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import cm
@@ -37,10 +38,20 @@ from reportlab.lib.enums import TA_CENTER, TA_LEFT, TA_JUSTIFY
 # Helpers
 # ---------------------------------------------------------------------------
 
-def _safe_img(path: str, width: float, height: float):
-    """Return an Image flowable if the file exists, otherwise a placeholder."""
+def _safe_img(path: str, max_width: float, max_height: float):
+    """Return an Image flowable that preserves the natural aspect ratio.
+
+    The image is scaled so that it fits within *max_width* × *max_height*
+    while keeping the original proportions intact.  A placeholder paragraph
+    is returned when the file does not exist.
+    """
     if os.path.isfile(path):
-        return Image(path, width=width, height=height)
+        with PILImage.open(path) as pil_img:
+            iw, ih = pil_img.size
+        if iw > 0 and ih > 0:
+            # Scale to fit within the bounding box while preserving aspect ratio
+            scale = min(max_width / iw, max_height / ih)
+            return Image(path, width=iw * scale, height=ih * scale)
     return Paragraph(f"[Figure not found: {path}]", getSampleStyleSheet()["Normal"])
 
 
@@ -196,7 +207,7 @@ def generate_pdf_report(model, results: dict, figures_dir: str, output_path: str
     story.append(
         Paragraph(
             "The pipeline consists of four stages, each implemented as a separate Python "
-            "module inside the <code>src/</code> directory:",
+            "module inside the <font name='Courier' size='9'>src/</font> directory:",
             body_style,
         )
     )
@@ -253,7 +264,8 @@ def generate_pdf_report(model, results: dict, figures_dir: str, output_path: str
     story.append(
         Paragraph(
             "The corpus uses Penn Treebank-style POS tags stored in plain-text files "
-            "(one sentence per line, <code>word/TAG</code> format).  A dedicated training "
+            "(one sentence per line, <font name='Courier' size='9'>word/TAG</font> "
+            "format).  A dedicated training "
             "set and a separate held-out test set are used to prevent data leakage.",
             body_style,
         )
@@ -294,7 +306,7 @@ def generate_pdf_report(model, results: dict, figures_dir: str, output_path: str
         for tag, desc in sorted(tag_desc.items())
         if tag in model.tags
     ]
-    tt = Table(tag_rows, colWidths=[2 * cm, W - 2.2 * cm])
+    tt = Table(tag_rows, colWidths=[2 * cm, W - 2.2 * cm], repeatRows=1)
     tt.setStyle(
         TableStyle(
             [
@@ -476,6 +488,7 @@ def generate_pdf_report(model, results: dict, figures_dir: str, output_path: str
     ptt = Table(
         per_tag_rows,
         colWidths=[2.5 * cm, 3 * cm, 3 * cm, 3 * cm],
+        repeatRows=1,
     )
     ptt.setStyle(
         TableStyle(
@@ -504,8 +517,8 @@ def generate_pdf_report(model, results: dict, figures_dir: str, output_path: str
     story.append(PageBreak())
     story.append(Paragraph("6. Analysis and Visualisation", h1_style))
 
-    fig_w = W
-    fig_h = 10 * cm
+    fig_max_w = W
+    fig_max_h = 15 * cm
 
     figures_info = [
         (
@@ -544,7 +557,7 @@ def generate_pdf_report(model, results: dict, figures_dir: str, output_path: str
         story.append(
             KeepTogether(
                 [
-                    _safe_img(path, fig_w, fig_h),
+                    _safe_img(path, fig_max_w, fig_max_h),
                     Paragraph(caption, caption_style),
                 ]
             )
